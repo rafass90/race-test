@@ -9,7 +9,10 @@ Não queria aumentar a complexidade e verbosidade mas avaliei que ficaria mais f
 
 A classe RACE, criei para que fosse o core da logica de negócio, o core da aplicação. Nela está a lógica do desafio.
 
-As dependências python instaladas estão 
+Python versão 3.6.4
+Como dependêmcia de código, utilizei apenas a biblioteca pathlib, o restante foi código nativo python.
+As dependências estão no diretório requirements/
+
 
 EXECUÇÃO
 =======
@@ -22,7 +25,7 @@ Opcional, passar os parâmetros de entrada(arquivo de log) e saida(arquivo txt c
 ```make run ARGS="$MY_INPUTFILE_LOG $MY_RESULT_OUTPUT"```
 
 
-EXCECUTE JOB
+MAKE
 ============
 Use `make` para executar o projeto
 
